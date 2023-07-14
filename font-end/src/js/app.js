@@ -2,7 +2,7 @@ const overlay = $("#overlay");
 const btnUpload = $("#btn-upload");
 const dropZoneElm = $("#drop-zone");
 const mainElm = $("main");
-const REST_API_URL = `http://localhost:8080/gallery`;
+const REST_API_URL = `http://localhost:8080/app`;
 const cssLoaderHtml = `<div class="lds-facebook"><div></div><div></div><div></div></div>`;
 
 loadAllImages();
